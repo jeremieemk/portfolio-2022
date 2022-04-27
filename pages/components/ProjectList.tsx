@@ -4,7 +4,7 @@ import Project from "./Project";
 const ProjectList = () => {
 	return (
 		<>
-			{projectData.map((project) => {
+			{projectData && projectData.map((project) => {
 				return <Project key={project.title} project={project} />;
 			})}
 		</>
