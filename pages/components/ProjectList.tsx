@@ -1,4 +1,4 @@
-import { projectData } from "../data/projectData";
+import { projectData } from "../../data/projectData";
 import Project from "./Project";
 
 const ProjectList = () => {
