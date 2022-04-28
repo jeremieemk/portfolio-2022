@@ -12,7 +12,7 @@ type ProjectProps = {
 const Project = ({ project }: ProjectProps) => {
 	return (
 		project && (
-			<div className=" font-poppins bg-darkGrey transform transition duration-300 ease-in-out rounded-lg border-4 border-darkGrey2 flex flex-col hover:translate-y-0.5">
+			<div className="bg-darkGrey transform transition duration-300 ease-in-out rounded-lg border-4 border-darkGrey2 flex flex-col hover:translate-y-0.5">
 				<div className=" h-8 w-full bg-darkGrey flex items-center p-6">
 					<div className=" text-4xl text-white ">⌘</div>
 				</div>
