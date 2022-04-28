@@ -10,9 +10,12 @@ const Home: NextPage = () => {
 				<meta name="JérémieCodes" content="JérémieCodes portfolio" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<div>
-				<ProjectList />
-			</div>
+      <div className=" flex w-full justify-center">
+      <div className="main-container">
+          <ProjectList />
+        </div>
+      </div>
+		
 		</div>
 	);
 };

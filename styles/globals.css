@@ -8,3 +8,18 @@ body {
     background-color: #101010;
     color: #d4d4d4;
 }
+
+.main-container {
+    max-width: 1940px;
+    padding: 4rem 7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .main-container {
+        padding: 1.2rem 4rem;
+        gap: 2rem;
+    }
+}
