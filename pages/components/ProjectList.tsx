@@ -3,11 +3,11 @@ import Project from "./Project";
 
 const ProjectList = () => {
 	return (
-		<>
+		<div>
 			{projectData && projectData.map((project) => {
 				return <Project key={project.title} project={project} />;
 			})}
-		</>
+		</div>
 	);
 };
 
