@@ -8,7 +8,11 @@ module.exports = {
         colors: {
           darkGrey: "#121212",
           darkGrey2: "#222222",
-          midGrey: "#949494",
+          yellow: "#f7df1e",
+          blue:"#007ACC",
+          grey: "#575757",
+          green: "#699E5B",
+          pink: "#DC5EB7"
         },
       },
     },
