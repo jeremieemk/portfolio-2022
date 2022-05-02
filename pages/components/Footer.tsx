@@ -1,22 +1,17 @@
 import { TwitterLogo, Code, EnvelopeOpen, GithubLogo } from "phosphor-react";
-import { useState, useEffect } from "react";
-import copyToClipboard from "../../utilities/copyToClipboard";
-import ClipboardModal from "./ClipboardModal";
 
+import copyToClipboard from "../../utilities/copyToClipboard";
+import useClipboardModal from "../../utilities/useClipboardModal";
+
+import ClipboardModal from "./ClipboardModal";
 import FooterLink from "./FooterLink";
 
 const Footer = () => {
-	const [showModal, setShowModal] = useState(false)
+	const {showModal, setShowModal} = useClipboardModal();
 	const handleEmailClick = () => {
-		setShowModal(true)
-		copyToClipboard("jeremieemk@gmail.com")
-	}
-	useEffect(() => {
-		const timer = setTimeout(() => {
-			showModal === true && setShowModal(false)
-		}, 3000);
-		return () => clearTimeout(timer);
-	  }, [showModal]);
+		setShowModal(true);
+		copyToClipboard("jeremieemk@gmail.com");
+	};
 	return (
 		<section className="flex justify-between items-center">
 			<div className=" flex w-full gap-4 items-center ">
@@ -26,7 +21,7 @@ const Footer = () => {
 					Icon={TwitterLogo}
 					link="https://twitter.com/iZem"
 				/>
-				<div className="flex" onClick={() => handleEmailClick() }>
+				<div className="flex" onClick={() => handleEmailClick()}>
 					<FooterLink label="EMAIL" color="#f7df1e" Icon={EnvelopeOpen} />
 				</div>
 				<FooterLink
@@ -35,9 +30,7 @@ const Footer = () => {
 					Icon={GithubLogo}
 					link="https://github.com/jeremieemk"
 				/>
-				<div>
-					{showModal && <ClipboardModal />}
-				</div>
+				<ClipboardModal showModal={showModal} />
 			</div>
 			<FooterLink
 				label="VIEW CODE"
