@@ -10,7 +10,7 @@ body {
 }
 
 .main-container {
-    padding: 7rem 4rem ;
+    padding: 7rem 4rem 2rem ;
     display: flex;
     flex-direction: column;
     gap: 7rem;
