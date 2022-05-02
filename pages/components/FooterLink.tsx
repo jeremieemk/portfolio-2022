@@ -12,11 +12,11 @@ const FooterLink = ({ label, Icon, color, link }: FooterLinkProps) => {
 				href={link && link}
 				target="_blank"
 				rel="noreferrer"
-				className=" text-2xl md:text-5xls text-white p-4 rounded-lg bg-darkGrey2 w-fit"
+				className=" text-2xl md:text-5xls text-white p-4 rounded-lg bg-darkGrey2 w-fit h-fit"
 			>
-				<div className="flex gap-2 whitespace-nowrap items-center">
+				<button className="flex gap-2 whitespace-nowrap items-center">
 					<Icon color={color && color} /> {label && label}
-				</div>
+				</button>
 			</a>
 		);
 	} else {
