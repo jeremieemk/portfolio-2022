@@ -13,7 +13,7 @@ const Footer = () => {
 		copyToClipboard("jeremieemk@gmail.com");
 	};
 	return (
-		<section className="flex justify-between items-center">
+		<section className="flex justify-between items-center gap-4">
 			<div className=" flex w-full gap-4 items-center ">
 				<FooterLink
 					label="TWITTER"

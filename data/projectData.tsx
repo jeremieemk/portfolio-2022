@@ -4,7 +4,7 @@ export const projectData = [
 		url: "https://www.palettelist.com/",
 		description: "Palette List is a dynamic palette generator",
 		poster: "https://ucarecdn.com/54850ddb-f3c1-4177-87ea-3ec5bd677607/-/preview/-/quality/smart/",
-		videoMp4: "https://ucarecdn.com/7627aac0-949f-4cba-bba7-4b06b0bbe9d7/",
+		videoMp4: "https://ucarecdn.com/6a9b5d1e-00c9-498a-b355-b16bf4a740b0/",
 		tech: ["React", "Sass", "Ruby on Rails"],
 	},
 	{
@@ -28,7 +28,7 @@ export const projectData = [
 		url: "https://www.elis-records.com/",
 		description: "Sherpa is French NGO",
 		poster: "https://ucarecdn.com/44ac7ead-4c0c-4c2f-94d8-6200aa705f78/-/preview/-/quality/smart/",
-		videoMp4: "https://ucarecdn.com/5451080b-d0a4-4d6a-a8b1-da7a294a0ca3/",
+		videoMp4: "https://ucarecdn.com/92a567ae-ac8b-4fd4-a79f-45ae27473d60/",
 		tech: ["Next", "React", "Tailwind", "Prismic.io", "Framer-motion"],
 	},
 

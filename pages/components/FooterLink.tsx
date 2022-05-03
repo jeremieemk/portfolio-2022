@@ -15,7 +15,7 @@ const FooterLink = ({ label, Icon, color, link }: FooterLinkProps) => {
 				className=" text-2xl md:text-5xls text-white p-4 rounded-lg bg-darkGrey2 w-fit h-fit"
 			>
 				<button className="flex gap-2 whitespace-nowrap items-center">
-					<Icon color={color && color} /> {label && label}
+					<Icon color={color} /> {label}
 				</button>
 			</a>
 		);
