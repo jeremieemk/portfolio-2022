@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 type FooterLinkProps = {
 	label: string;
 	color: string;
@@ -8,7 +10,11 @@ type FooterLinkProps = {
 const FooterLink = ({ label, Icon, color, link }: FooterLinkProps) => {
 	if (label && Icon && color) {
 		return (
-			<a
+			<motion.a
+				whileHover={{
+					y: 1.5,
+					transition: { duration: 0.2, ease: "easeInOut" },
+				}}
 				href={link && link}
 				target="_blank"
 				rel="noreferrer"
@@ -17,10 +23,10 @@ const FooterLink = ({ label, Icon, color, link }: FooterLinkProps) => {
 				<button className="flex gap-2 whitespace-nowrap items-center">
 					<Icon color={color} /> {label}
 				</button>
-			</a>
+			</motion.a>
 		);
 	} else {
-		return null
+		return null;
 	}
 };
 
