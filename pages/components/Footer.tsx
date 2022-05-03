@@ -7,7 +7,7 @@ import ClipboardModal from "./ClipboardModal";
 import FooterLink from "./FooterLink";
 
 const Footer = () => {
-	const {showModal, setShowModal} = useClipboardModal();
+	const { showModal, setShowModal } = useClipboardModal();
 	const handleEmailClick = () => {
 		setShowModal(true);
 		copyToClipboard("jeremieemk@gmail.com");
@@ -30,10 +30,8 @@ const Footer = () => {
 					Icon={GithubLogo}
 					link="https://github.com/jeremieemk"
 				/>
-	
-					<ClipboardModal showModal={showModal} />
-	
-				
+
+				<ClipboardModal showModal={showModal} />
 			</div>
 			<FooterLink
 				label="VIEW CODE"
