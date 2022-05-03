@@ -12,9 +12,9 @@ type ProjectProps = {
 const Project = ({ project }: ProjectProps) => {
 	return (
 		project && (
-			<div className="bg-darkGrey transform transition duration-300 ease-in-out rounded-lg border-4 border-darkGrey2 flex flex-col hover:translate-y-0.5">
-				<div className=" h-8 w-full bg-darkGrey flex items-center p-6">
-					<div className=" text-4xl text-white ">⌘</div>
+			<div className="bg-darkGrey w-full transform transition duration-300 ease-in-out rounded-lg border-4 border-darkGrey2 flex flex-col hover:translate-y-0.5">
+				<div className=" h-8 w-full bg-darkGrey2 flex items-center p-6">
+					<div className=" text-3xl text-white ">⌘</div>
 				</div>
 				<a href={project.url} target="_blank" rel="noreferrer">
 					<video autoPlay loop muted poster={project.poster}>

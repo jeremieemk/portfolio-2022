@@ -1,7 +1,7 @@
 const About = () => {
 	return (
-		<>
-			<div className="   ">
+		<div className=" text-2xl" >
+			<div >
 				Hello 👋, {`I'm`}{" "}
 				<span className=" text-white underline font-bold ">Jérémie</span>. A
 				Javascript engineer with a passion for creating fascinating things that
@@ -45,7 +45,7 @@ const About = () => {
 				</a>
 				, exploring the world and learning (human) languages.
 			</div>
-		</>
+		</div>
 	);
 };
 

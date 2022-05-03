@@ -13,8 +13,8 @@ const Footer = () => {
 		copyToClipboard("jeremieemk@gmail.com");
 	};
 	return (
-		<section className="flex justify-between items-center gap-4">
-			<div className=" flex w-full gap-4 items-center ">
+		<section className="w-full flex flex-col md:flex-row justify-between md:items-center gap-4">
+			<div className="flex flex-col md:flex-row w-full gap-4 md:items-center ">
 				<FooterLink
 					label="TWITTER"
 					color="#007ACC"
@@ -30,7 +30,10 @@ const Footer = () => {
 					Icon={GithubLogo}
 					link="https://github.com/jeremieemk"
 				/>
-				<ClipboardModal showModal={showModal} />
+	
+					<ClipboardModal showModal={showModal} />
+	
+				
 			</div>
 			<FooterLink
 				label="VIEW CODE"
@@ -38,6 +41,9 @@ const Footer = () => {
 				Icon={Code}
 				link="https://github.com/jeremieemk/portfolio-2022"
 			/>
+			{/* <div className="flex md:hidden" >
+				<ClipboardModal showModal={showModal} />
+			</div> */}
 		</section>
 	);
 };
