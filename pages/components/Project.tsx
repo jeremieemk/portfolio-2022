@@ -31,21 +31,23 @@ const Project = ({ project }: ProjectProps) => {
 				</a>
 				<div>
 					<div className=" flex flex-col gap-2 p-6 md:p-8">
-						<a
+						<motion.a
+							whileHover={{
+								color: "#949494",
+								textDecoration: "underline",
+								transition: { duration: 0.2, ease: "easeInOut" },
+							}}
 							href={project.url}
 							target="_blank"
 							rel="noreferrer"
-							className=" text-white text-3xl md:text-6xl font-bold transition duration-200 ease-in-out hover:underline hover:text-midGrey"
+							className=" text-white text-3xl md:text-6xl font-bold "
 						>
 							{project.title}
-						</a>
-						<div
-							className="  hidden
-						md:flex gap-4 text-sm "
-						>
+						</motion.a>
+						<div className="hidden md:flex gap-4 text-sm ">
 							{project.tech.map((stack) => (
 								<span
-									className=" flex px-1 py-3 rounded-lg items-center justify-center transition font-semibold duration-300 ease-in-out text-white bg-darkGrey2 w-fit"
+									className=" flex px-1 py-3 rounded-lg items-center justify-center font-semibold  text-white bg-darkGrey2 w-fit"
 									key={stack}
 								>
 									{stack}
