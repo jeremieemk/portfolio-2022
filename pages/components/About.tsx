@@ -13,8 +13,8 @@ const About = () => {
 				that live in the digital world.
 			</p>
 			<p>
-				Always learning new tools & technologies, I am committed to the
-				philosophy of life-long learning. I have experience with{" "}
+				Always exploring new tools & technologies, I am committed to the
+				practice of life-long learning. I have experience with{" "}
 				<span className=" text-white font-bold  transition-all duration-300 ease-in-out hover:text-pink">
 					React{" "}
 				</span>
