@@ -9,7 +9,7 @@ export const projectData = [
 	},
 	{
 		title: "NISO Project",
-		url: "https://niso-site-22.vercel.app/",
+		url: "https://www.nisoproject.com/",
 		description: "NISO Project is an art gallery based in London",
 		poster: "https://ucarecdn.com/60e33432-b04b-4065-987a-d3253c3d76a1/-/preview/-/quality/smart/",
 		videoMp4: "https://ucarecdn.com/9812e438-f711-4414-b44f-9ebae96cd85f/",
