@@ -25,7 +25,7 @@ export const projectData = [
 	},
 	{
 		title: "Sherpa Asso",
-		url: "https://www.elis-records.com/",
+		url: "https://www.asso-sherpa-20-ans.org/",
 		description: "Sherpa is French NGO",
 		poster: "https://ucarecdn.com/44ac7ead-4c0c-4c2f-94d8-6200aa705f78/-/preview/-/quality/smart/",
 		videoMp4: "https://ucarecdn.com/92a567ae-ac8b-4fd4-a79f-45ae27473d60/",
