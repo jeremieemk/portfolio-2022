@@ -25,7 +25,7 @@ const Resume: NextPage = () => {
 						objectFit="contain"
 					/>
 					<div className=" w-full flex justify-center absolute bottom-0 md:-bottom-5 right-0 ">
-						<a href="https://drive.google.com/uc?export=download&id=1zaH1CDdikJpW1IEpNkDzyqJuXJwBTzud" target="_blank"rel="noreferrer" >
+						<a href="https://drive.google.com/uc?export=download&id=148M2dObDtaqucdbjmHJdrgfiWq4nvuDW" target="_blank"rel="noreferrer" >
 						<motion.button
 							whileHover={{
 								y: 1,
